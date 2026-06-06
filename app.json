@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Flashcards",
-    "slug": "Flashcards",
+    "slug": "flashcard",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,6 +19,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d171c6df-1153-4c5f-8c60-eade9c4798c1"
+      }
+    },
+    "owner": "kumpanya"
   }
 }
