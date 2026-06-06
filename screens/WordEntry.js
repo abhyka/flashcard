@@ -6,8 +6,8 @@ export default function WordEntry({ navigation }) {
       <Text>Word Entry Screen</Text>
       {/* This button demonstrates how to navigate to the Study screen */}
       <Button 
-        title="Go to Study" 
-        onPress={() => navigation.navigate('Study')} 
+        title="Go to Study Mode" 
+        onPress={() => navigation.navigate('StudyMode')} 
       />
     </View>
   );

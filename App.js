@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 // Importing the screen components
 import Dashboard from './screens/Dashboard';
@@ -10,7 +10,7 @@ import StudySession from './screens/StudySession';
 import Quiz from './screens/Quiz';
 import Settings from './screens/Settings';
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
