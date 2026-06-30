@@ -1,0 +1,10 @@
+name: New MCP server
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: react-native-guide
+    command: npx
+    args:
+      - -y
+      - "@mrnitro360/react-native-mcp-guide@1.1.0"
+    env: {}    

@@ -4,10 +4,12 @@
   "main": "index.js",
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
+    "@mrnitro360/react-native-mcp-guide": "^1.1.0",
     "@react-navigation/native": "^7.2.5",
     "@react-navigation/native-stack": "^7.16.0",
     "expo": "^54.0.35",
     "expo-status-bar": "~3.0.9",
+    "g": "^2.0.1",
     "react": "19.1.0",
     "react-native": "0.81.5",
     "react-native-safe-area-context": "~5.6.0",
