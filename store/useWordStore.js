@@ -18,10 +18,10 @@ export const useWordStore = create(
                         meaning: wordData.meaning.trim(),
                         article: wordData.article ? wordData.article.trim() : '',
                         gender: wordData.gender || '' , // 'Masculine', 'Feminine', 'Neuter'
-                        exampleSentece: wordData.exampleSentence ? wordData.exampleSentence.trim() : '',
+                        exampleSentence: wordData.exampleSentence ? wordData.exampleSentence.trim() : '',
                         tags: wordData.tags || [], // Array of tags
                         box: 1, // Initial box for Leitner system (1 = new word, higher = memorized)
-                        createadAt: new Date().toISOString(),
+                        createdAt: new Date().toISOString(),
                     }
                 ]
             })),
